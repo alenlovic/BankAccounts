@@ -1,0 +1,29 @@
+<div class="cards-form">
+    <form #form="ngForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="">Cardholder Name</label>
+        <input type="text" name="cardholderName" [(ngModel)]="bankAccount.cardholderName">
+      </div>
+      <div class="form-group">
+        <label for="">Card Number</label>
+        <input type="text" name="cardNumber" [(ngModel)]="bankAccount.cardNumber">
+      </div>
+      <div class="form-group form-group-inline">
+        <div>
+          <label for="">CVV</label>
+        <input type="text" name="cvv" [(ngModel)]="bankAccount.cvv">
+        </div>
+        <div>
+          <label for="">Expiry Month</label>
+        <input type="text" name="expiryMonth" [(ngModel)]="bankAccount.expiryMonth">
+        </div>
+        <div>
+          <label for="">Expiry Year</label>
+        <input type="text" name="expiryYear" [(ngModel)]="bankAccount.expiryYear">
+        </div>
+      </div>
+      <div class="form-group">
+        <button>Save</button>
+      </div>
+    </form>
+  </div>

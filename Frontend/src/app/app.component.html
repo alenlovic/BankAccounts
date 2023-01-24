@@ -1,0 +1,51 @@
+<div class="container">
+  <h1>Bank Account Web API service</h1>
+  
+  <div class="cards-container">
+    <div class="cards-form">
+      <form #form="ngForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="">Cardholder Name</label>
+          <input type="text" required name="cardholderName" [(ngModel)]="bankAccount.cardholderName">
+          <div></div>
+        </div>
+        <div class="form-group">
+          <label for="">Card Number</label>
+          <input type="text" required name="cardNumber" [(ngModel)]="bankAccount.cardNumber">
+        </div>
+        <div class="form-group form-group-inline">
+          <div>
+            <label for="">CVV</label>
+          <input type="text" required name="cvv" [(ngModel)]="bankAccount.cvv">
+          </div>
+          <div>
+            <label for="">Expiry Month</label>
+          <input type="text" required name="expiryMonth" [(ngModel)]="bankAccount.expiryMonth">
+          </div>
+          <div>
+            <label for="">Expiry Year</label>
+          <input type="text" required name="expiryYear" [(ngModel)]="bankAccount.expiryYear">
+          </div>
+        </div>
+        <div class="form-group">
+          <button>Save</button>
+        </div>
+      </form>
+    </div>
+    <div class="cards-grid">
+
+      <div class="card-row" *ngFor="let bankAccount of bankAccounts">
+        <div class="card-row-details">
+          <span>{{ bankAccount.cardholderName }}</span>
+          <span>{{ bankAccount.cardNumber }}</span>
+        </div>
+        <div class="card-row-edit">
+          <a (click)="populateForm(bankAccount)"><i class="fa-regular fa-pen-to-square"></i></a>
+        </div>
+        <div class="card-row-action">
+          <a (click)="deleteCard(bankAccount.id)"><i class="fa-solid fa-trash-can"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
