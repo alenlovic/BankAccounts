@@ -49,7 +49,7 @@ export class AppComponent implements OnInit {
             expiryYear: '',
             cvv: '',
           };
-          this.toastr.success('You have succesfully registered a bank account');
+          this.toastr.success('You have succesfully registered a bank account', "Success");
         });
     } else {
       this.updateBankAccount(this.bankAccount);
@@ -60,7 +60,7 @@ export class AppComponent implements OnInit {
     this.bankAccountsService.deleteBankAccount(id).subscribe((response) => {
       this.getAllAccounts();
     });
-    this.toastr.success('You have succesfully deleted a bank account');
+    this.toastr.success('You have succesfully deleted a bank account', "Success");
   }
 
   populateForm(bankAccount: BankAccount) {
@@ -68,9 +68,8 @@ export class AppComponent implements OnInit {
   }
 
   updateBankAccount(bankAccount: BankAccount) {
-    this.bankAccountsService
-      .updateBankAccount(bankAccount)
-      .subscribe((response) => {
+    this.bankAccountsService.updateBankAccount(bankAccount).subscribe(
+      (response) => {
         this.getAllAccounts();
         this.bankAccount = {
           id: '',
@@ -80,7 +79,11 @@ export class AppComponent implements OnInit {
           expiryYear: '',
           cvv: '',
         };
-      });
-    this.toastr.success('You have succesfully updated a bank account');
+        this.toastr.success('You have succesfully updated a bank account', "Success");
+      },
+      (error) => {
+        this.toastr.error('Please try again', "Error");
+      }
+    );
   }
 }
