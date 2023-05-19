@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "v4q6QJeEoNTprHAzANbgt3aqMSOzANIP2kLUjIkeXKGAc4Rb326oGI4rlYM8ndxjVJJr48r6R4YrQpP5Oap0cA==",
+  "dgSpecHash": "GuLHoyY7kEO1bHVcw3diFGYoxTitCc0IR5a60u7GbRGWye992RPB18n36CUMqRWxVMv0SjYGYd244Ss0TKRStg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alen\\Documents\\Projects\\BankAccountsAPI\\Backend\\BankAccountsAPI\\BankAccountsAPI.csproj",
   "expectedPackageFiles": [
@@ -63,6 +63,7 @@
     "C:\\Users\\Alen\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
     "C:\\Users\\Alen\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Alen\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\Alen\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512",
     "C:\\Users\\Alen\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\7.0.2\\microsoft.visualstudio.web.codegeneration.7.0.2.nupkg.sha512",
     "C:\\Users\\Alen\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\7.0.2\\microsoft.visualstudio.web.codegeneration.core.7.0.2.nupkg.sha512",
     "C:\\Users\\Alen\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\7.0.2\\microsoft.visualstudio.web.codegeneration.design.7.0.2.nupkg.sha512",

@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BankAccountsAPI",
+    "\\BankAccountsAPI\\Controllers",
+    "\\BankAccountsAPI\\Database",
+    "\\BankAccountsAPI\\Models"
+  ],
+  "SelectedNode": "\\BankAccountsAPI\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
