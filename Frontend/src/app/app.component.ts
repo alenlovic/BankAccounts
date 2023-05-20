@@ -84,6 +84,9 @@ export class AppComponent implements OnInit {
       (error) => {
         this.toastr.error('Please try again', "Error");
       }
+
+      
+
     );
   }
 }
