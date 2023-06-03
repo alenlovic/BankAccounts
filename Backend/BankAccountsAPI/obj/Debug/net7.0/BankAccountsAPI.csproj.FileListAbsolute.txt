@@ -274,3 +274,5 @@ C:\Users\Alen\Documents\Projects\BankAccountsAPI\Backend\BankAccountsAPI\obj\Deb
 C:\Users\Alen\Documents\Projects\BankAccountsAPI\Backend\BankAccountsAPI\obj\Debug\net7.0\BankAccountsAPI.pdb
 C:\Users\Alen\Documents\Projects\BankAccountsAPI\Backend\BankAccountsAPI\obj\Debug\net7.0\BankAccountsAPI.genruntimeconfig.cache
 C:\Users\Alen\Documents\Projects\BankAccountsAPI\Backend\BankAccountsAPI\obj\Debug\net7.0\ref\BankAccountsAPI.dll
+C:\Users\Alen\Documents\Projects\BankAccountsAPI\Backend\BankAccountsAPI\bin\Debug\net7.0\BankAccountsAPI.xml
+C:\Users\Alen\Documents\Projects\BankAccountsAPI\Backend\BankAccountsAPI\obj\Debug\net7.0\BankAccountsAPI.xml
